@@ -4,14 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>M.Orgs</title>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            scroll-behavior: smooth;
+            background-color: gray;
+            position: -webkit-sticky; /* Safari */
+            position: sticky;
+            top: 0;
+        }
+
+        li {
+        float: left;
+        }
+
+        li a {
+            display: block;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover {
+            color: white;
+            background-color: #111;
+        }
+    </style>
 </head>
 <body>
     <nav>
         <ul>
-            <li><a href="http://apple.de">Apple</a></li>
             <li><a href="#Mywork">Portfolio</a></li>
-            <li><a href="#Myself"></a></li>
-            <li><a href="#contact"></a></li>
+            <li><a href="#Myself">Myself</a></li>
+            <li><a href="#contact">Kontaktiere mich</a></li>
         </ul>
     </nav>
     <section id="Mywork"></section>
