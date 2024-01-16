@@ -1,1 +1,66 @@
 /* trying to fix a git probl */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+background: var(--Grey, #2D2D2D);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    background-color: gray;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+li {
+float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    color: white;
+    background-color: #111;
+}
+iframe{
+    display: block;
+    margin: auto;
+
+}
+.Pictureme{
+    width: 10.25rem;
+    height: 10.25rem;
+    border-radius: 10.25rem;
+    border: 1px solid #FFF;
+    background: url(/Bilder/Marc_SVG.png) center/ auto 100% no-repeat;
+}
+#Myself{
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    align-self: stretch;
+}
+#Myself p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
