@@ -9,6 +9,8 @@ body{
     flex-direction: column;
     background: var(--Grey, #2D2D2D);
 }
+
+/* Navigation */
 ul {
     list-style-type: none;
     margin: 0;
@@ -37,6 +39,33 @@ li a:hover {
     background-color: #111;
 }
 
+
+/* Projekte */
+
+#Mywork {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+    grid-auto-rows: calc(33.333vh - 20px);
+    gap: 20px;
+}
+
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #first{
+    background-color: white;
+    transition: background-color 0.3s ease;
+  }
+
+  #first:hover{
+    background-color: rgb(215, 215, 215);
+  }
+
+  /* Myself */
+  
 .Pictureme{
     width: 10.25rem;
     height: 10.25rem;
@@ -44,6 +73,7 @@ li a:hover {
     border: 1px solid #FFF;
     background: url(/Bilder/Marc_SVG.png) center/ auto 100% no-repeat;
 }
+
 #Myself{
     display: flex;
     padding: 1rem;
@@ -54,9 +84,7 @@ li a:hover {
 }
 #Myself p{
     color: #FFF;
-    font-family: Inter;
     font-size: 1.5rem;
-    font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
