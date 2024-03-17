@@ -65,7 +65,7 @@ li a:hover {
   }
 
   /* Myself */
-  
+
 .Pictureme{
     width: 10.25rem;
     height: 10.25rem;
@@ -87,4 +87,17 @@ li a:hover {
     font-size: 1.5rem;
     font-weight: 400;
     line-height: normal;
+}
+
+/* Contact */
+
+#contact{
+    margin: 40px auto;
+    display: flex;
+    gap: 16px;
+}
+
+address a{
+    text-decoration: none;
+    color: rgb(244, 244, 244);
 }
